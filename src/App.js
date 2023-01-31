@@ -1,13 +1,14 @@
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import { Header } from './components/Header';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AddSales } from './pages/AddSales';
 import { TopSales } from './pages/TopSales';
 import { Revenue } from './pages/Revenue';
 import { Login } from './pages/Login';
 import { Register } from './pages/Register';
-import Logout from "./pages/Logout";
+import { Logout } from "./pages/Logout";
 function App() {
   return (
     <>
